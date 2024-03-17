@@ -20,12 +20,24 @@
   font-size: medium;
 }
 
+.input-control.invalid label {
+  color: red;
+}
+.input-control.invalid input {
+  border-color: red;
+  background-color: #ee8282;
+}
+
 .form-control button {
   cursor: pointer;
   padding: 8px;
   margin: 5px 0;
   color: white;
-  /* background-color: #7e065a; */
-  background-image: linear-gradient(90deg, #6b395c, #ff00af);
+  background-color: #7e065a;
+  /* background-image: linear-gradient(90deg, #6b395c, #ff00af); */
   border: 0;
+}
+
+.form-control.invalid button {
+  background-color: #ee8282;
 }
