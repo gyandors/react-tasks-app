@@ -1,0 +1,11 @@
+.task-list-items {
+  padding: 8px 0;
+  margin: 10px 0;
+  font-weight: bold;
+  background-color: white;
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}

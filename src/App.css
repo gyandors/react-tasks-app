@@ -1,0 +1,16 @@
+.app {
+  width: 40vw;
+  margin: auto;
+}
+
+@media (max-width: 600px) {
+  .app {
+    width: 90vw;
+  }
+}
+
+#task {
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px #a5a4a4;
+}
